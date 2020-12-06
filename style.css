@@ -1,0 +1,57 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    background: rgb(173, 216, 230);
+}
+
+main {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+div[class='header'] {
+    font-size: 2rem;
+    line-height: 3rem;
+    color: rgb(255, 255, 255);
+}
+
+div[class='instructions'] {
+    font-size: 1.5rem;
+    line-height: 3rem;
+    color: rgb(255, 255, 255);
+}
+
+div[class='stopper'] {
+    font-size: 1.5rem;
+    line-height: 3rem;
+    color: rgb(255, 255, 255);
+}
+
+div[class^='cards'] {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 45rem;
+}
+
+div[class='image'] {
+    margin: 0.5rem;
+    background-image: url("images/background.jpg");
+    border-radius: 0.5rem;
+    border: 0px solid rgb(0, 0, 0)
+}
+
+img {
+    opacity: 0;
+    display: flex;
+    width: 8rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: 0.3s
+}
