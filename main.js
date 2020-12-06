@@ -62,7 +62,7 @@ function reset(){header.style.color='white'; header.textContent='JAVASCRIPT PAIR
 }
 
 let stopperTime = 0;
-let stopperIsRunning =true
+let stopperIsRunning =false
 
 setInterval( () => {
         if (stopperIsRunning == false){return}
